@@ -111,7 +111,7 @@ $(".btn").on("click",function(){
    x.push(Math.floor((Math.random() * 4) + 1));
    i++;
    y=0;
-   setTimeout(first,600,x,i);
+  setTimeout(first,600,x,i);
   }
   else
   {
