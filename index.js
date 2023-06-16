@@ -57,7 +57,14 @@ $(document).on("keydown",function(){
       first(x,i);    
     }
   })
-
+$(".st").on("click",function(){
+    if(i==0)
+    {
+      x.push(Math.floor((Math.random() * 4) + 1));
+      i++;
+      first(x,i);    
+    }
+  })
 
 $(".btn").on("click",function(){
     var t=$(this).attr("id");
