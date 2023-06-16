@@ -16,7 +16,10 @@ body {
   margin: auto;
 
 }
-
+.st{
+  height: 50px;
+  width: 100px;
+}
 .btn {
   margin: 25px;
   display: inline-block;
